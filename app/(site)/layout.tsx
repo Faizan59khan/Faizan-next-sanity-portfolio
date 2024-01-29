@@ -8,10 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Sanity Next.js Portfolio Site",
-	metadataBase: new URL("https://sanity-nextjs-site.vercel.app"),
+	metadataBase: new URL("https://faizan-next-sanity-portfolio.vercel.app/"),
 	description: "A personal portfolio site built with Sanity and Next.js",
 	openGraph: {
-		images: "https://res.cloudinary.com/victoreke/image/upload/v1689893059/docs/og.png",
+		images:
+			"https://res-console.cloudinary.com/dhwyinnjm/thumbnails/v1/image/upload/v1706559346/U2NyZWVuc2hvdF8yMDI0LTAxLTMwXzAxMTUzMl9raWx4aDA=/as_is",
 	},
 };
 
